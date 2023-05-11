@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Noto+Sans:wght@600&family=Secular+One&display=swap');
+
+:root{
+    --fatebluedark: #2e72c0;
+    --violet: #8c4ffd;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif;
+    color: beige;
+}
+
+
+header{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--fatebluedark);
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    
+
+}
+main{
+    background-color: var(--fatebluedark);
+    padding: 30px;
+    position: relative;
+}
+
+section{
+    height: 64vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 2rem;
+    background-color: beige;
+
+}
+section img{
+    width: 300px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+form div{
+    display: flex;
+    margin: 5px;
+    padding: 20px;
+    justify-content: center;
+}
+
+input{
+    color: var(--fatebluedark) !important;
+    background-color: beige !important;
+    width: 300px;
+    padding: 15px;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+}
+button{
+    background-color: beige;
+    padding: 15px;
+    border: 2px;
+    border-color: var(--fatebluedark);
+    border-radius: 0.5rem;
+    border-style: solid;
+    color: var(--fatebluedark);
+    font-weight: 700;
+    cursor: pointer;
+}
+button:hover{
+    background-color: var(--fatebluedark);
+    color: beige;
+}
+footer{
+    display: flex;
+    height: 10vh;
+    background-color: var(--fatebluedark);
+    align-items: center;
+    justify-content: center;
+
+}
