@@ -104,6 +104,14 @@ footer{
     justify-content: center;
 
 }
+@media (max-width: 608px){
+    section img{
+        width: 200px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
 @media (max-width: 395px) {
 
     section img{
@@ -113,15 +121,13 @@ footer{
         width: 200px ;
     }
     
+    
 }
-@media (max-height: 840px){
+@media (max-height: 600px){
     section img{
         width: 150px;
     }
 
-    .form{
-        flex-direction: row;
-    }
 }
 @media (max-height: 506px){
     section img{
